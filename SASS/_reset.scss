@@ -1,0 +1,76 @@
+// ===== SCSS Reset =====
+
+// Міксин для скидання margin/padding/font
+@mixin reset-box {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+// Universal box-sizing
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+// Елементи документа
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure, hr,
+fieldset, legend,
+input, button, textarea,
+th, td {
+  @include reset-box;
+}
+
+// Основне тіло
+body {
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Списки без стилів
+ul, ol {
+  list-style: none;
+}
+
+// Посилання
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Медійні елементи
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Таблиці
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Форми
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img, svg {
+  vertical-align: middle;
+}

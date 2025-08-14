@@ -1,0 +1,34 @@
+[
+    {
+        "name" : "poster1",
+        "src" : "./assets/poster/poster1.png"
+    },
+    {
+        "name" : "poster2",
+        "src" : "./assets/poster/poster2.png"
+    },
+    {
+        "name" : "poster3",
+        "src" : "./assets/poster/poster3.png"
+    },
+    {
+        "name" : "poster4",
+        "src" : "./assets/poster/poster4.png"
+    },
+    {
+        "name" : "poster4",
+        "src" : "./assets/poster/poster4.png"
+    },
+    {
+        "name" : "poster3",
+        "src" : "./assets/poster/poster3.png"
+    },
+    {
+        "name" : "poster2",
+        "src" : "./assets/poster/poster2.png"
+    },
+    {
+        "name" : "poster1",
+        "src" : "./assets/poster/poster1.png"
+    }
+]

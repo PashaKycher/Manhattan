@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./JS/homeFirstScreen.js"></script>
+    <script src="./JS/homeMenuItems.js"></script>
+    <title>Manhattan</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="./assets/logoHeader.svg" alt="MANHATTAN" class="header-logo">
+            </div>
+            <div class="nav">
+                <nav class="header-nav">
+                    <li class="header-li">
+                        <a class="header-a" href="#">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="header-li">
+                        <a class="header-a" target="_blank" href="#!">
+                            <p>Menu</p>
+                        </a>
+                    </li>
+                    <li class="header-li">
+                        <a class="header-a" target="_blank" href="#!">
+                            <p>Poster</p>
+                        </a>
+                    </li>
+                    <li class="header-li">
+                        <a class="header-a" target="_blank" href="#!">
+                            <p>Cooperation</p>
+                        </a>
+                    </li>
+                    <li class="header-li">
+                        <a class="header-a" target="_blank" href="#!">
+                            <p>Gallery</p>
+                        </a>
+                    </li>
+                    <li class="header-li">
+                        <a class="header-a" target="_blank" href="#!">
+                            <p>News</p>
+                        </a>
+                    </li>
+                </nav>
+            </div>
+            <div class="btn">
+                <button class="header-btn">Reservation</button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="first-screen">
+                <div class="poster">
+                    <div>
+                        <h3 class="poster-h3">Since 1996</h3>
+                        <p class="poster-p">True. Fontanka.<br>Underground.</p>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <div class="announcements-btn">
+                        <button class="btn-1" onclick="changeSryle1()">The nearest</button>
+                        <button class="btn-2" onclick="changeSryle2()">Coming soon</button>
+                    </div>
+                    <div class="announcements-events">
+                        <div class="announcements-events1"></div>
+                        <div class="announcements-events2"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="menu">
+                <div class="header">
+                    <h3 class="menu-h3">Top “Manhattan” menu</h3>
+                    <p class="menu-p">KITCHEN</p>
+                </div>
+                <div class="kitchen">
+                    <div class="kitchen-menu">
+                    </div>
+                    <div class="kitchen-btn">
+                        <button class="btm-1" onclick="beforeItomList()">
+                            <img src="./assets/arrows/left.svg" alt="left">
+                        </button>
+                        <button class="btm-2" onclick="nextItomList()">
+                            <img src="./assets/arrows/right.svg" alt="right">
+                        </button>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <button class="btn">ALL MENU</button>
+                </div>
+            </section>
+            <section class="events-and-tourists">
+                <div class="events">
+                    <p class="events-p-head">Top “Manhattan” events</p>
+                    <h3 class="events-h3">Banquets</h3>
+                    <p class="events-p">
+                        <span>Banquets at Our Restaurant. </span>
+                        Celebrate life’s special moments with elegance and flavor at our restaurant. We offer a refined
+                        setting, delicious cuisine, and attentive service, creating the perfect atmosphere for
+                        birthdays, weddings, anniversaries, or corporate events of any size.
+                    </p>
+                    <p class="events-p">
+                        <span>Tailored Menus and Ambience. </span>
+                        Our team works closely with you to design a customized menu that reflects your tastes and
+                        preferences. From exquisite appetizers to indulgent desserts, every dish is crafted to impress,
+                        accompanied by a warm, inviting atmosphere.
+                    </p>
+                    <p class="events-p">
+                        <span>Exceptional Service for Every Guest. </span>
+                        Whether hosting an intimate gathering or a large banquet, we ensure every detail is handled with
+                        care. Our professional staff delivers exceptional service, allowing you to relax and enjoy the
+                        celebration while we take care of everything.
+                    </p>
+                    <button class="events-btn">More</button>
+                </div>
+                <div class="events-and-tourists-img">
+                    <img src="./assets/eventsAndTourists.png" alt="events-and-tourists">
+                </div>
+                <div class="tourists">
+                    <p class="tourists-p-head">Top “Manhattan” tourists</p>
+                    <h3 class="tourists-h3">Tourists</h3>
+                    <p class="tourists-p">
+                        <span>A Warm Welcome to Tourists. </span>
+                        Discover the taste of our region while enjoying the comfort and charm of our restaurant. We
+                        offer travelers a cozy atmosphere, authentic dishes, and friendly service that makes every visit
+                        a memorable part of your journey.
+                    </p>
+                    <p class="tourists-p">
+                        <span>Taste the Local Flavors. </span>
+                        Our menu showcases the best of local cuisine, prepared with fresh, seasonal ingredients. Whether
+                        you’re exploring traditional specialties or international favorites, each dish is crafted to
+                        give you an authentic and flavorful experience.
+                    </p>
+                    <p class="tourists-p">
+                        <span>Convenience and Comfort for Visitors. </span>
+                        Located near popular attractions, our restaurant is the perfect place to rest, recharge, and
+                        savor delicious meals. With multilingual staff and a welcoming attitude, we make sure every
+                        guest feels at home.
+                    </p>
+                    <button class="tourists-btn">More</button>
+                </div>
+            </section>
+            <section class="rider">
+                <p class="rider-p-head">Top “Manhattan” party</p>
+                <h3 class="rider-h3">Techrider</h3>
+                <div class="info">
+                    <div class="info-system">
+                        <div class="system-1">
+                            <div class="head">
+                                <p class="head-p-1">Loudspeakers</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-1">
+                                Acoustic system BELL Top 600W x 2
+                            </li>
+                            <li class="system-li-1">
+                                Acoustic system BELL Mid 600W x 2
+                            </li>
+                            <li class="system-li-1">
+                                Acoustic system BELL Sub 1000W x 2
+                            </li>
+                            <li class="system-li-1">
+                                Front monitor Yamaha SM12V 300w x 2
+                            </li>
+                            <li class="system-li-1">
+                                Backside monitor Dynacord 500W x 2
+                            </li>
+                        </div>
+                        <div class="system-2">
+                            <div class="head">
+                                <p class="head-p-2">Amplifier</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-2">
+                                Power amplifier Crown XTi 4002 x 2
+                            </li>
+                            <li class="system-li-2">
+                                Power amplifier QSC GX5 x 2
+                            </li>
+                            <li class="system-li-2">
+                                Power amplifier Behringer EP4000 x 1
+                            </li>
+                            <li class="system-li-2">
+                                Tube amplifier Marshall DSL100HR x 1
+                            </li>
+                            <li class="system-li-2">
+
+                            </li>
+                        </div>
+                        <div class="system-3">
+                            <div class="head">
+                                <p class="head-p-3">FOH</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-3">
+                                Mixing console Allen & Heath SQ-6 x 1
+                            </li>
+                            <li class="system-li-3">
+                                Mixing console Yamaha CL5 x 1
+                            </li>
+                            <li class="system-li-3">
+                                Digital stage box Allen & Heath DX168 x 2
+                            </li>
+                            <li class="system-li-3">
+                                Effects processor Lexicon PCM92 x 1
+                            </li>
+                            <li class="system-li-3">
+                                Audio interface Focusrite Scarlett 18i20 x 1
+                            </li>
+                        </div>
+                        <div class="system-4">
+                            <div class="head">
+                                <p class="head-p-4">Backline</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-4">
+                                Electric guitar Fender Stratocaster x 1
+                            </li>
+                            <li class="system-li-4">
+                                Bass guitar Fender Jazz Bass x 1
+                            </li>
+                            <li class="system-li-4">
+                                Drum kit Yamaha Stage Custom Birch x 1
+                            </li>
+                            <li class="system-li-4">
+                                Guitar amplifier Marshall JVM410C x 1
+                            </li>
+                            <li class="system-li-4">
+                                Bass amplifier Ampeg SVT-4PRO x 1
+                            </li>
+                        </div>
+                        <div class="system-5">
+                            <div class="head">
+                                <p class="head-p-5">Microphone set</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-5">
+                                Shure SM58 dynamic microphone x 6
+                            </li>
+                            <li class="system-li-5">
+                                Shure Beta 57A dynamic microphone x 4
+                            </li>
+                            <li class="system-li-5">
+                                AKG C414 XLII condenser microphone x 2
+                            </li>
+                            <li class="system-li-5">
+                                Sennheiser e604 drum microphone x 4
+                            </li>
+                            <li class="system-li-5">
+                                Shure Beta 91A kick drum microphone x 1
+                            </li>
+                        </div>
+                        <div class="system-6">
+                            <div class="head">
+                                <p class="head-p-6">DJ equipment</p>
+                                <img src="./assets/arrows/vector.svg" alt="vector" class="head-img">
+                            </div>
+                            <li class="system-li-6">
+                                Pioneer DJM-900NXS2 mixer x 1
+                            </li>
+                            <li class="system-li-6">
+                                Pioneer CDJ-2000NXS2 player x 2
+                            </li>
+                            <li class="system-li-6">
+                                Native Instruments Traktor Kontrol S4 MK3 x 1
+                            </li>
+                            <li class="system-li-6">
+                                Technics SL-1210MK7 turntable x 2
+                            </li>
+                            <li class="system-li-6">
+                                Allen & Heath Xone:92 mixer x 1
+                            </li>
+                        </div>
+                    </div>
+                    <div class="info-engineers">
+                        <p class="info-engineers-p">
+                            Sound engineers of the MANHATTAN club
+                        </p>
+                        <div class="info-engineers-sounder">
+                            <div class="izotov">
+                                <img 
+                                    src="./assets/dj/izotov.png" 
+                                    alt="Izotov Konstantin" 
+                                    class="izotov-img"
+                                >
+                                <p class="izotov-p">Izotov Konstantin</p>
+                                <div class="contact">
+                                    <a href="#" target="_blank">
+                                        <img src="./assets/icon/bxl_vk.svg" alt="vk" class="contact-icon">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img src="./assets/icon/bxl_telegram.svg" alt="telegram" class="contact-icon">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="david">
+                                <img 
+                                    src="./assets/dj/david.png" 
+                                    alt="David Khoziev" 
+                                    class="david-img"
+                                >
+                                <p class="david-p">David Khoziev</p>
+                                <div class="contact">
+                                    <a href="#" target="_blank">
+                                        <img src="./assets/icon/bxl_vk.svg" alt="vk" class="contact-icon">
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <img src="./assets/icon/bxl_telegram.svg" alt="telegram" class="contact-icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

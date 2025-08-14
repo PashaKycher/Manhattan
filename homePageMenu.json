@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Grilled Salmon",
+        "unit": "327g",
+        "prise": "25$",
+        "about": "This flavorful dish is a delightful mix of textures and aromas that awaken your senses.",
+        "img": {
+            "name": "Grilled Salmon",
+            "src": "./assets/menu/imgMenu(1).jpg"
+        }
+    },
+    {
+        "name": "Caesar Salad",
+        "unit": "467g",
+        "prise": "15$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Caesar Salad",
+            "src": "./assets/menu/imgMenu(2).jpg"
+        }
+    },
+    {
+        "name": "Spaghetti Carbonara",
+        "unit": "403g",
+        "prise": "10$",
+        "about": "A delicious and hearty dish made with the freshest ingredients for a rich and satisfying flavor.",
+        "img": {
+            "name": "Spaghetti Carbonara",
+            "src": "./assets/menu/imgMenu(3).jpg"
+        }
+    },
+    {
+        "name": "Beef Stroganoff",
+        "unit": "405g",
+        "prise": "14$",
+        "about": "Combines high-quality ingredients into a dish that is both refreshing and deeply satisfying.",
+        "img": {
+            "name": "Beef Stroganoff",
+            "src": "./assets/menu/imgMenu(4).jpg"
+        }
+    },
+    {
+        "name": "Chicken Parmesan",
+        "unit": "387g",
+        "prise": "14$",
+        "about": "A comforting classic, made to perfection with an emphasis on authentic preparation.",
+        "img": {
+            "name": "Chicken Parmesan",
+            "src": "./assets/menu/imgMenu(5).jpg"
+        }
+    },
+    {
+        "name": "Tuna Tartare",
+        "unit": "397g",
+        "prise": "33$",
+        "about": "A delicious and hearty dish made with the freshest ingredients for a rich and satisfying flavor.",
+        "img": {
+            "name": "Tuna Tartare",
+            "src": "./assets/menu/imgMenu(6).jpg"
+        }
+    },
+    {
+        "name": "Margherita Pizza",
+        "unit": "353g",
+        "prise": "6$",
+        "about": "This flavorful dish is a delightful mix of textures and aromas that awaken your senses.",
+        "img": {
+            "name": "Margherita Pizza",
+            "src": "./assets/menu/imgMenu(7).jpg"
+        }
+    },
+    {
+        "name": "Lobster Bisque",
+        "unit": "258g",
+        "prise": "5$",
+        "about": "This flavorful dish is a delightful mix of textures and aromas that awaken your senses.",
+        "img": {
+            "name": "Lobster Bisque",
+            "src": "./assets/menu/imgMenu(8).jpg"
+        }
+    },
+    {
+        "name": "Mushroom Risotto",
+        "unit": "423g",
+        "prise": "27$",
+        "about": "An ideal choice for any occasion, combining tradition and modern culinary flair.",
+        "img": {
+            "name": "Mushroom Risotto",
+            "src": "./assets/menu/imgMenu(9).jpg"
+        }
+    },
+    {
+        "name": "Duck Confit",
+        "unit": "474g",
+        "prise": "10$",
+        "about": "A comforting classic, made to perfection with an emphasis on authentic preparation.",
+        "img": {
+            "name": "Duck Confit",
+            "src": "./assets/menu/imgMenu(10).jpg"
+        }
+    },
+    {
+        "name": "Shrimp Scampi",
+        "unit": "322g",
+        "prise": "8$",
+        "about": "Combines high-quality ingredients into a dish that is both refreshing and deeply satisfying.",
+        "img": {
+            "name": "Shrimp Scampi",
+            "src": "./assets/menu/imgMenu(11).jpg"
+        }
+    },
+    {
+        "name": "Greek Salad",
+        "unit": "158g",
+        "prise": "28$",
+        "about": "An ideal choice for any occasion, combining tradition and modern culinary flair.",
+        "img": {
+            "name": "Greek Salad",
+            "src": "./assets/menu/imgMenu(12).jpg"
+        }
+    },
+    {
+        "name": "Pesto Pasta",
+        "unit": "301g",
+        "prise": "7$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Pesto Pasta",
+            "src": "./assets/menu/imgMenu(13).jpg"
+        }
+    },
+    {
+        "name": "Teriyaki Chicken",
+        "unit": "224g",
+        "prise": "27$",
+        "about": "Crispy on the outside, tender on the inside, served with a signature house-made sauce.",
+        "img": {
+            "name": "Teriyaki Chicken",
+            "src": "./assets/menu/imgMenu(14).jpg"
+        }
+    },
+    {
+        "name": "BBQ Ribs",
+        "unit": "255g",
+        "prise": "34$",
+        "about": "This savory plate offers a perfect blend of spices and herbs, leaving a lasting impression.",
+        "img": {
+            "name": "BBQ Ribs",
+            "src": "./assets/menu/imgMenu(15).jpg"
+        }
+    },
+    {
+        "name": "Stuffed Peppers",
+        "unit": "233g",
+        "prise": "28$",
+        "about": "This savory plate offers a perfect blend of spices and herbs, leaving a lasting impression.",
+        "img": {
+            "name": "Stuffed Peppers",
+            "src": "./assets/menu/imgMenu(16).jpg"
+        }
+    },
+    {
+        "name": "Eggplant Parmesan",
+        "unit": "241g",
+        "prise": "24$",
+        "about": "Combines high-quality ingredients into a dish that is both refreshing and deeply satisfying.",
+        "img": {
+            "name": "Eggplant Parmesan",
+            "src": "./assets/menu/imgMenu(17).jpg"
+        }
+    },
+    {
+        "name": "Fried Calamari",
+        "unit": "407g",
+        "prise": "26$",
+        "about": "A comforting classic, made to perfection with an emphasis on authentic preparation.",
+        "img": {
+            "name": "Fried Calamari",
+            "src": "./assets/menu/imgMenu(18).jpg"
+        }
+    },
+    {
+        "name": "Lamb Chops",
+        "unit": "181g",
+        "prise": "32$",
+        "about": "This savory plate offers a perfect blend of spices and herbs, leaving a lasting impression.",
+        "img": {
+            "name": "Lamb Chops",
+            "src": "./assets/menu/imgMenu(19).jpg"
+        }
+    },
+    {
+        "name": "Fish Tacos",
+        "unit": "210g",
+        "prise": "33$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Fish Tacos",
+            "src": "./assets/menu/imgMenu(20).jpg"
+        }
+    },
+    {
+        "name": "Avocado Toast",
+        "unit": "378g",
+        "prise": "10$",
+        "about": "A balanced combination of proteins and vegetables, cooked with a gourmet touch.",
+        "img": {
+            "name": "Avocado Toast",
+            "src": "./assets/menu/imgMenu(21).jpg"
+        }
+    },
+    {
+        "name": "Beef Tacos",
+        "unit": "163g",
+        "prise": "12$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Beef Tacos",
+            "src": "./assets/menu/imgMenu(22).jpg"
+        }
+    },
+    {
+        "name": "Clam Chowder",
+        "unit": "392g",
+        "prise": "14$",
+        "about": "An ideal choice for any occasion, combining tradition and modern culinary flair.",
+        "img": {
+            "name": "Clam Chowder",
+            "src": "./assets/menu/imgMenu(23).jpg"
+        }
+    },
+    {
+        "name": "Steak Frites",
+        "unit": "211g",
+        "prise": "31$",
+        "about": "A balanced combination of proteins and vegetables, cooked with a gourmet touch.",
+        "img": {
+            "name": "Steak Frites",
+            "src": "./assets/menu/imgMenu(24).jpg"
+        }
+    },
+    {
+        "name": "Vegetable Stir Fry",
+        "unit": "307g",
+        "prise": "5$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Vegetable Stir Fry",
+            "src": "./assets/menu/imgMenu(25).jpg"
+        }
+    },
+    {
+        "name": "Seafood Paella",
+        "unit": "159g",
+        "prise": "8$",
+        "about": "An ideal choice for any occasion, combining tradition and modern culinary flair.",
+        "img": {
+            "name": "Seafood Paella",
+            "src": "./assets/menu/imgMenu(26).jpg"
+        }
+    },
+    {
+        "name": "Chicken Fajitas",
+        "unit": "494g",
+        "prise": "14$",
+        "about": "Prepared with care, this meal is both nutritious and full of bold, unforgettable tastes.",
+        "img": {
+            "name": "Chicken Fajitas",
+            "src": "./assets/menu/imgMenu(27).jpg"
+        }
+    },
+    {
+        "name": "Gnocchi Bolognese",
+        "unit": "464g",
+        "prise": "15$",
+        "about": "A balanced combination of proteins and vegetables, cooked with a gourmet touch.",
+        "img": {
+            "name": "Gnocchi Bolognese",
+            "src": "./assets/menu/imgMenu(28).jpg"
+        }
+    },
+    {
+        "name": "Crab Cakes",
+        "unit": "325g",
+        "prise": "11$",
+        "about": "Aromatic and colorful, this dish bursts with flavor and is sure to please any palate.",
+        "img": {
+            "name": "Crab Cakes",
+            "src": "./assets/menu/imgMenu(29).jpg"
+        }
+    },
+    {
+        "name": "French Onion Soup",
+        "unit": "247g",
+        "prise": "12$",
+        "about": "A delicious and hearty dish made with the freshest ingredients for a rich and satisfying flavor.",
+        "img": {
+            "name": "French Onion Soup",
+            "src": "./assets/menu/imgMenu(30).jpg"
+        }
+    },
+    {
+        "name": "Pulled Pork Sandwich",
+        "unit": "488g",
+        "prise": "10$",
+        "about": "This flavorful dish is a delightful mix of textures and aromas that awaken your senses.",
+        "img": {
+            "name": "Pulled Pork Sandwich",
+            "src": "./assets/menu/imgMenu(31).jpg"
+        }
+    },
+    {
+        "name": "Cheeseburger Deluxe",
+        "unit": "233g",
+        "prise": "16$",
+        "about": "This savory plate offers a perfect blend of spices and herbs, leaving a lasting impression.",
+        "img": {
+            "name": "Cheeseburger Deluxe",
+            "src": "./assets/menu/imgMenu(32).jpg"
+        }
+    },
+    {
+        "name": "Tandoori Chicken",
+        "unit": "393g",
+        "prise": "33$",
+        "about": "An ideal choice for any occasion, combining tradition and modern culinary flair.",
+        "img": {
+            "name": "Tandoori Chicken",
+            "src": "./assets/menu/imgMenu(33).jpg"
+        }
+    },
+    {
+        "name": "Pad Thai",
+        "unit": "415g",
+        "prise": "6$",
+        "about": "A balanced combination of proteins and vegetables, cooked with a gourmet touch.",
+        "img": {
+            "name": "Pad Thai",
+            "src": "./assets/menu/imgMenu(34).jpg"
+        }
+    },
+    {
+        "name": "Burrata Salad",
+        "unit": "435g",
+        "prise": "7$",
+        "about": "This savory plate offers a perfect blend of spices and herbs, leaving a lasting impression.",
+        "img": {
+            "name": "Burrata Salad",
+            "src": "./assets/menu/imgMenu(35).jpg"
+        }
+    },
+    {
+        "name": "Zucchini Noodles",
+        "unit": "410g",
+        "prise": "26$",
+        "about": "Combines high-quality ingredients into a dish that is both refreshing and deeply satisfying.",
+        "img": {
+            "name": "Zucchini Noodles",
+            "src": "./assets/menu/imgMenu(36).jpg"
+        }
+    },
+    {
+        "name": "Salmon Poke Bowl",
+        "unit": "364g",
+        "prise": "15$",
+        "about": "A balanced combination of proteins and vegetables, cooked with a gourmet touch.",
+        "img": {
+            "name": "Salmon Poke Bowl",
+            "src": "./assets/menu/imgMenu(37).jpg"
+        }
+    },
+    {
+        "name": "Beef Wellington",
+        "unit": "194g",
+        "prise": "9$",
+        "about": "A comforting classic, made to perfection with an emphasis on authentic preparation.",
+        "img": {
+            "name": "Beef Wellington",
+            "src": "./assets/menu/imgMenu(38).jpg"
+        }
+    },
+    {
+        "name": "Chicken Shawarma",
+        "unit": "387g",
+        "prise": "16$",
+        "about": "This flavorful dish is a delightful mix of textures and aromas that awaken your senses.",
+        "img": {
+            "name": "Chicken Shawarma",
+            "src": "./assets/menu/imgMenu(39).jpg"
+        }
+    },
+    {
+        "name": "Vegan Buddha Bowl",
+        "unit": "220g",
+        "prise": "33$",
+        "about": "Crispy on the outside, tender on the inside, served with a signature house-made sauce.",
+        "img": {
+            "name": "Vegan Buddha Bowl",
+            "src": "./assets/menu/imgMenu(40).jpg"
+        }
+    }
+]
