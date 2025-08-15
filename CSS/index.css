@@ -1112,4 +1112,99 @@ footer .info .info-map {
   background-color: lab(82.76% 0 -0.01 / 0.1);
   height: 2px;
   margin-bottom: 20px;
+}
+
+.main-menu {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+.main-menu .main-menu-h3 {
+  text-align: center;
+  display: block;
+  width: 260px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: #210E09;
+  font-weight: bold;
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.main-menu .main-menu-list-btn {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 40%;
+}
+.main-menu .main-menu-list-btn .btm-1 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #D5621D;
+}
+.main-menu .main-menu-list-btn .btm-1 img {
+  color: white;
+}
+.main-menu .main-menu-list-btn .btm-1:hover {
+  background-color: #b84e0c;
+  color: black;
+}
+.main-menu .main-menu-list-btn .btm-2 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #D5621D;
+}
+.main-menu .main-menu-list-btn .btm-2 img {
+  color: white;
+}
+.main-menu .main-menu-list-btn .btm-2:hover {
+  background-color: #b84e0c;
+  color: black;
+}
+.main-menu .main-menu-list {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+}
+.main-menu .main-menu-list .menu-list-item {
+  max-width: 150px;
+  margin: auto;
+  padding: 10px;
+  border: #D5621D solid 1px;
+  border-radius: 5px;
+}
+.main-menu .main-menu-list .menu-list-item .menu-list-item-img {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+}
+.main-menu .main-menu-list .menu-list-item .menu-list-item-name {
+  height: 69px;
+  margin: auto;
+  padding-top: 15px;
+  max-width: 110px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+@media (max-width: 780px) {
+  .main-menu .main-menu-list-btn {
+    position: relative;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
 }/*# sourceMappingURL=index.css.map */

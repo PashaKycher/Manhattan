@@ -1,0 +1,79 @@
+
+let firstItemList = 0;
+let lastItemList = 12;
+
+async function loadMetaData() {
+    const url = 'https://concerts-artists-events-tracker.p.rapidapi.com/festival/infos?festival_id=157318';
+    const options = {
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': '590a838874msh94d5fde99e94ce4p18ad44jsnd61525a9b49a',
+            'x-rapidapi-host': 'concerts-artists-events-tracker.p.rapidapi.com'
+        }
+    };
+
+    try {
+        const response = await fetch(url, options);
+
+        const data = await response.json();
+
+        // const menu = document.querySelector('.main-poster-list')
+
+        // function getListContent(el) {
+        //     el.innerHTML = '';
+
+        //     data.slice(firstItem, lastItem).forEach(item => {
+        //         let divElement = document.createElement('div');
+        //         divElement.className = 'menu-list-item';
+
+        //         let imgElement = document.createElement('img');
+        //         imgElement.className = 'menu-list-item-img';
+        //         imgElement.width = 110;
+        //         imgElement.height = 110;
+        //         imgElement.alt = `${item.title}`;
+        //         imgElement.src = `${item.image}`;
+
+        //         let nameElement = document.createElement('h3');
+        //         nameElement.className = 'menu-list-item-name';
+        //         nameElement.innerHTML = `${item.title}`
+
+        //         divElement.append(imgElement);
+        //         divElement.append(nameElement);
+
+        //         menu.append(divElement);
+        //     });
+        // }
+
+        // getListContent(menu)
+        console.log(data)
+    } catch (error) {
+        console.error(error);
+
+    }
+}
+
+loadMetaData();
+
+function nextItomList() {
+
+    if (lastItemList === 168) {
+        return
+    }
+
+    firstItemList += 12;
+    lastItemList += 12;
+
+    loadMetaData(firstItemList, lastItemList);
+}
+
+function beforeItomList() {
+
+    if (firstItemList === 0) {
+        return
+    }
+
+    firstItemList -= 12;
+    lastItemList -= 12;
+
+    loadMetaData(firstItemList, lastItemList);
+}
