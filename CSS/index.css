@@ -154,6 +154,140 @@ img {
   }
 }
 
+footer {
+  padding-bottom: 50px;
+}
+footer .footer-p-head {
+  text-align: center;
+  display: block;
+  width: 260px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: #210E09;
+  font-weight: bold;
+  font-size: 14px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+footer .footer-h3-head {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 5px;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+footer .info {
+  display: flex;
+  justify-content: space-between;
+}
+footer .info .info-contacts {
+  background-color: lab(55.24% 41.24 56.67 / 0.1);
+  max-width: 410px;
+  padding: 50px;
+  border-radius: 5px;
+  border: solid 1px #D5621D;
+}
+footer .info .info-contacts .address .address-h3 {
+  display: block;
+  max-width: 230px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: start;
+  padding-bottom: 20px;
+}
+footer .info .info-contacts .address .address-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+  text-align: start;
+  padding-bottom: 35px;
+}
+footer .info .info-contacts .staff .staff-h3 {
+  display: block;
+  max-width: 230px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: start;
+  padding-bottom: 20px;
+}
+footer .info .info-contacts .staff .staff-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+  text-align: start;
+  padding-bottom: 35px;
+}
+footer .info .info-contacts .my .my-h3 {
+  display: block;
+  max-width: 230px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: start;
+  padding-bottom: 20px;
+}
+footer .info .info-contacts .my .my-btn {
+  display: flex;
+  justify-content: space-between;
+}
+footer .info .info-contacts .line {
+  background-color: lab(82.76% 0 -0.01 / 0.1);
+  height: 2px;
+  margin-bottom: 20px;
+}
+footer .info .info-map {
+  width: 60%;
+}
+@media (max-width: 1000px) {
+  footer {
+    padding-top: 50px;
+  }
+  footer .info {
+    display: block;
+  }
+  footer .info .info-contacts {
+    margin: auto;
+  }
+  footer .info .info-map {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+
+.line {
+  background-color: lab(82.76% 0 -0.01 / 0.1);
+  height: 2px;
+  margin-bottom: 20px;
+}
+
 .main {
   padding: 30px 10px 50px 10px;
 }
@@ -978,140 +1112,6 @@ img {
   .main .rider .info .info-engineers .info-engineers-sounder .david {
     padding-top: 50px;
   }
-}
-
-footer {
-  padding-bottom: 50px;
-}
-footer .footer-p-head {
-  text-align: center;
-  display: block;
-  width: 260px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: white;
-  color: #210E09;
-  font-weight: bold;
-  font-size: 14px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-footer .footer-h3-head {
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 150%;
-  letter-spacing: 5px;
-  padding-bottom: 35px;
-  text-transform: uppercase;
-}
-footer .info {
-  display: flex;
-  justify-content: space-between;
-}
-footer .info .info-contacts {
-  background-color: lab(55.24% 41.24 56.67 / 0.1);
-  max-width: 410px;
-  padding: 50px;
-  border-radius: 5px;
-  border: solid 1px #D5621D;
-}
-footer .info .info-contacts .address .address-h3 {
-  display: block;
-  max-width: 230px;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 150%;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: start;
-  padding-bottom: 20px;
-}
-footer .info .info-contacts .address .address-p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: white;
-  text-align: start;
-  padding-bottom: 35px;
-}
-footer .info .info-contacts .staff .staff-h3 {
-  display: block;
-  max-width: 230px;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 150%;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: start;
-  padding-bottom: 20px;
-}
-footer .info .info-contacts .staff .staff-p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: white;
-  text-align: start;
-  padding-bottom: 35px;
-}
-footer .info .info-contacts .my .my-h3 {
-  display: block;
-  max-width: 230px;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 150%;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: start;
-  padding-bottom: 20px;
-}
-footer .info .info-contacts .my .my-btn {
-  display: flex;
-  justify-content: space-between;
-}
-footer .info .info-contacts .line {
-  background-color: lab(82.76% 0 -0.01 / 0.1);
-  height: 2px;
-  margin-bottom: 20px;
-}
-footer .info .info-map {
-  width: 60%;
-}
-@media (max-width: 1000px) {
-  footer {
-    padding-top: 50px;
-  }
-  footer .info {
-    display: block;
-  }
-  footer .info .info-contacts {
-    margin: auto;
-  }
-  footer .info .info-map {
-    width: 90%;
-    height: 250px;
-    margin: auto;
-    margin-top: 40px;
-  }
-}
-
-.line {
-  background-color: lab(82.76% 0 -0.01 / 0.1);
-  height: 2px;
-  margin-bottom: 20px;
 }
 
 .main-menu {
