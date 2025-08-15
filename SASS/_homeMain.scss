@@ -559,7 +559,7 @@
 
     & .rider {
         padding-top: 150px;
-        padding-bottom: 150px;
+        height: 1100px;
         
         & .rider-p-head {
             text-align: center;
@@ -964,6 +964,7 @@
         @media(max-width:570px) {
             padding-top: 50px;
             padding-bottom: 50px;
+            height: auto;
             
             & .info {
                 display: block;
