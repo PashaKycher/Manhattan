@@ -3,24 +3,22 @@ let firstItemList = 0;
 let lastItemList = 12;
 
 async function loadMetaData(firstItem, lastItem) {
-    const url = 'https://the-mexican-food-db.p.rapidapi.com/';
-
+    const url = 'https://chinese-food-db.p.rapidapi.com/';
     const options = {
         method: 'GET',
         headers: {
             'x-rapidapi-key': '590a838874msh94d5fde99e94ce4p18ad44jsnd61525a9b49a',
-            'x-rapidapi-host': 'the-mexican-food-db.p.rapidapi.com'
+            'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
         }
     };
 
     try {
         const response = await fetch(url, options);
-
         const data = await response.json();
 
         const menu = document.querySelector('.main-menu-list')
 
-        function getListContent (el) {
+        function getListContent(el) {
             el.innerHTML = '';
 
             data.slice(firstItem, lastItem).forEach(item => {
@@ -41,7 +39,7 @@ async function loadMetaData(firstItem, lastItem) {
                 divElement.append(imgElement);
                 divElement.append(nameElement);
 
-                menu.append(divElement);
+                el.append(divElement);
             });
         }
 
