@@ -1,0 +1,105 @@
+.main-news {
+    padding: 100px 10px 150px 10px;
+
+    .main-news-p {
+        text-align: center;
+        display: block;
+        width: 260px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: white;
+        color: #210E09;
+        font-weight: bold;
+        font-size: 14px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .main-news-h3 {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 150%;
+        letter-spacing: 5px;
+        padding-bottom: 100px;
+        text-transform: uppercase;
+    }
+
+    .main-news-info {
+        max-width: 1300px;
+        margin: auto;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px 20px;
+
+        .news-info {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border: 1px solid #D5621D;
+
+            .news-info-img {
+                max-width: 300px;
+                max-height: 350px;
+                border-radius: 20px;
+                padding: 10px;
+            }
+        }
+    }
+
+    @media(max-width:850px) {
+        .main-news-info {
+            .news-info {
+                .news-info-p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    @media(max-width:650px) {
+        .main-news-info {
+            border: none;
+            .news-info {
+                display: block;
+                max-width: 350px;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                .news-info-img {
+                    margin: auto;
+                }
+
+                .news-info-p {
+                    margin: auto;
+                    max-width: 350px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    @media(max-width:380px) {
+        .main-news-info {
+            .news-info {
+
+                .news-info-img {
+                    margin: auto;
+                    max-width: 200px;
+                    height: auto;
+                }
+
+                .news-info-p {
+                    margin: auto;
+                    max-width: 200px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

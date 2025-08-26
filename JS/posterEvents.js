@@ -2,20 +2,20 @@
 let firstItemList = 0;
 let lastItemList = 12;
 
-async function loadMetaData() {
-    const url = 'https://concerts-artists-events-tracker.p.rapidapi.com/festival/infos?festival_id=157318';
-    const options = {
-        method: 'GET',
-        headers: {
-            'x-rapidapi-key': '590a838874msh94d5fde99e94ce4p18ad44jsnd61525a9b49a',
-            'x-rapidapi-host': 'concerts-artists-events-tracker.p.rapidapi.com'
-        }
-    };
+async function loadMetaData(firstItem, lastItem) {
+const url = 'https://ghibli-image-generator-api-open-ai-4o-image-generation-free.p.rapidapi.com/aaaaaaaaaaaaaaaaaiimagegenerator/ghibli/get.php?taskId=df732c2162c2376c1ced7c37e66d445b';
+const options = {
+	method: 'GET',
+	headers: {
+		'x-rapidapi-key': '590a838874msh94d5fde99e94ce4p18ad44jsnd61525a9b49a',
+		'x-rapidapi-host': 'ghibli-image-generator-api-open-ai-4o-image-generation-free.p.rapidapi.com'
+	}
+};
 
-    try {
-        const response = await fetch(url, options);
-
-        const data = await response.json();
+try {
+	const response = await fetch(url, options);
+	const result = await response.json();
+	console.log(result);
 
         // const menu = document.querySelector('.main-poster-list')
 
@@ -45,14 +45,12 @@ async function loadMetaData() {
         // }
 
         // getListContent(menu)
-        console.log(data)
     } catch (error) {
         console.error(error);
-
     }
 }
 
-loadMetaData();
+loadMetaData(firstItemList, lastItemList);
 
 function nextItomList() {
 
