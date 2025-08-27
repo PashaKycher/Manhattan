@@ -1,50 +1,63 @@
 
 let firstItemList = 0;
-let lastItemList = 12;
+let lastItemList = 4;
 
 async function loadMetaData(firstItem, lastItem) {
-const url = 'https://ghibli-image-generator-api-open-ai-4o-image-generation-free.p.rapidapi.com/aaaaaaaaaaaaaaaaaiimagegenerator/ghibli/get.php?taskId=df732c2162c2376c1ced7c37e66d445b';
-const options = {
-	method: 'GET',
-	headers: {
-		'x-rapidapi-key': '590a838874msh94d5fde99e94ce4p18ad44jsnd61525a9b49a',
-		'x-rapidapi-host': 'ghibli-image-generator-api-open-ai-4o-image-generation-free.p.rapidapi.com'
-	}
-};
+    try {
+        const response = await fetch('./poster.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! : ${response.status}`);
+        }
 
-try {
-	const response = await fetch(url, options);
-	const result = await response.json();
-	console.log(result);
+        data = await response.json();
 
-        // const menu = document.querySelector('.main-poster-list')
+        const menu = document.querySelector('.main-poster-list')
 
-        // function getListContent(el) {
-        //     el.innerHTML = '';
+        function getListContent(el) {
+            menu.innerHTML = '';
 
-        //     data.slice(firstItem, lastItem).forEach(item => {
-        //         let divElement = document.createElement('div');
-        //         divElement.className = 'menu-list-item';
+            data.slice(firstItem, lastItem).forEach(item => {
+                let divElement = document.createElement('div');
+                divElement.className = 'poster-list-item';
 
-        //         let imgElement = document.createElement('img');
-        //         imgElement.className = 'menu-list-item-img';
-        //         imgElement.width = 110;
-        //         imgElement.height = 110;
-        //         imgElement.alt = `${item.title}`;
-        //         imgElement.src = `${item.image}`;
+                let imgElement = document.createElement('img');
+                imgElement.className = 'poster-list-item-img';
+                // imgElement.width = 150;
+                // imgElement.height = 200;
+                imgElement.alt = `${item.title}`;
+                imgElement.src = `${item.photo}`;
 
-        //         let nameElement = document.createElement('h3');
-        //         nameElement.className = 'menu-list-item-name';
-        //         nameElement.innerHTML = `${item.title}`
+                let divInfo = document.createElement('div');
+                divInfo.className = 'poster-list-item-info';
+                let nameElement = document.createElement('h3');
+                nameElement.className = 'info-name';
+                nameElement.innerHTML = `${item.title}`
+                let infoElement = document.createElement('p');
+                infoElement.className = 'info-p';
+                infoElement.innerHTML = `${item.description}`
+                divInfo.append(nameElement);
+                divInfo.append(infoElement);
 
-        //         divElement.append(imgElement);
-        //         divElement.append(nameElement);
+                let divPrice = document.createElement('div');
+                divPrice.className = 'poster-list-item-price';
+                let priceElement = document.createElement('p');
+                priceElement.className = 'price-price';
+                priceElement.innerHTML = `price: ${item.ticket_price}`
+                let quanElement = document.createElement('p');
+                quanElement.className = 'price-quan';
+                quanElement.innerHTML = `quantity: ${item.ticket_quantity}`
+                divPrice.append(priceElement);
+                divPrice.append(quanElement);
 
-        //         menu.append(divElement);
-        //     });
-        // }
+                divElement.append(imgElement);
+                divElement.append(divInfo);
+                divElement.append(divPrice);
 
-        // getListContent(menu)
+                menu.append(divElement);
+            });
+        }
+
+        getListContent(data)
     } catch (error) {
         console.error(error);
     }
@@ -54,12 +67,12 @@ loadMetaData(firstItemList, lastItemList);
 
 function nextItomList() {
 
-    if (lastItemList === 168) {
+    if (lastItemList === 24) {
         return
     }
 
-    firstItemList += 12;
-    lastItemList += 12;
+    firstItemList += 4;
+    lastItemList += 4;
 
     loadMetaData(firstItemList, lastItemList);
 }
@@ -70,8 +83,8 @@ function beforeItomList() {
         return
     }
 
-    firstItemList -= 12;
-    lastItemList -= 12;
+    firstItemList -= 4;
+    lastItemList -= 4;
 
     loadMetaData(firstItemList, lastItemList);
 }

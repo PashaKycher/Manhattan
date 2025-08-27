@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Rock Legends Night",
+    "description": "An electrifying evening featuring tribute performances of iconic rock bands with powerful guitar riffs and an unforgettable atmosphere.",
+    "photo": "../assets/post/post(1).jpg",
+    "ticket_price": "45$",
+    "ticket_quantity": 250
+  },
+  {
+    "title": "Jazz in the Park",
+    "description": "Smooth jazz melodies performed by renowned saxophonists and pianists in an open-air setting under the evening sky.",
+    "photo": "../assets/post/post(2).jpg",
+    "ticket_price": "30$",
+    "ticket_quantity": 180
+  },
+  {
+    "title": "Pop Stars Live",
+    "description": "A dazzling show of chart-topping pop artists delivering high-energy performances with stunning visuals.",
+    "photo": "../assets/post/post(3).jpg",
+    "ticket_price": "60$",
+    "ticket_quantity": 400
+  },
+  {
+    "title": "Classical Harmony",
+    "description": "An elegant night with a symphony orchestra performing timeless masterpieces from Mozart, Beethoven, and Tchaikovsky.",
+    "photo": "../assets/post/post(4).jpg",
+    "ticket_price": "55$",
+    "ticket_quantity": 150
+  },
+  {
+    "title": "Indie Vibes Festival",
+    "description": "An intimate gathering of indie bands and solo artists creating a soulful and authentic atmosphere.",
+    "photo": "../assets/post/post(5).jpg",
+    "ticket_price": "25$",
+    "ticket_quantity": 300
+  },
+  {
+    "title": "Hip-Hop Beats Night",
+    "description": "A powerful lineup of hip-hop artists and DJs delivering strong beats and energetic performances.",
+    "photo": "../assets/post/post(6).jpg",
+    "ticket_price": "40$",
+    "ticket_quantity": 500
+  },
+  {
+    "title": "Electronic Pulse",
+    "description": "A spectacular EDM night with international DJs mixing the hottest tracks and dazzling light shows.",
+    "photo": "../assets/post/post(7).jpg",
+    "ticket_price": "70$",
+    "ticket_quantity": 600
+  },
+  {
+    "title": "Acoustic Evenings",
+    "description": "Relax with heartfelt acoustic sets from talented singers and guitarists in a cozy candlelit setting.",
+    "photo": "../assets/post/post(8).jpg",
+    "ticket_price": "20$",
+    "ticket_quantity": 120
+  },
+  {
+    "title": "Reggae Summer Jam",
+    "description": "Feel the positive vibes of reggae with live bands playing rhythmic tunes and beach-inspired energy.",
+    "photo": "../assets/post/post(9).jpg",
+    "ticket_price": "35$",
+    "ticket_quantity": 350
+  },
+  {
+    "title": "Metal Storm",
+    "description": "An intense concert filled with heavy riffs, thundering drums, and raw energy for true metal fans.",
+    "photo": "../assets/post/post(10).jpg",
+    "ticket_price": "50$",
+    "ticket_quantity": 280
+  },
+  {
+    "title": "Piano Masters",
+    "description": "A breathtaking recital of world-class pianists performing both classical and contemporary compositions.",
+    "photo": "../assets/post/post(11).jpg",
+    "ticket_price": "45$",
+    "ticket_quantity": 100
+  },
+  {
+    "title": "Latin Fiesta Night",
+    "description": "Dance to the rhythms of salsa, bachata, and merengue with vibrant live performances.",
+    "photo": "../assets/post/post(12).jpg",
+    "ticket_price": "38$",
+    "ticket_quantity": 260
+  },
+  {
+    "title": "Soul & Blues Evening",
+    "description": "An emotional night filled with soulful voices and the deep rhythms of blues guitar and harmonica.",
+    "photo": "../assets/post/post(13).jpg",
+    "ticket_price": "32$",
+    "ticket_quantity": 200
+  },
+  {
+    "title": "Folk Tales in Music",
+    "description": "Traditional folk songs and instruments bringing timeless cultural stories to life through music.",
+    "photo": "../assets/post/post(14).jpg",
+    "ticket_price": "28$",
+    "ticket_quantity": 140
+  },
+  {
+    "title": "R&B Sensation",
+    "description": "Top R&B performers deliver smooth vocals, groovy beats, and unforgettable ballads.",
+    "photo": "../assets/post/post(15).jpg",
+    "ticket_price": "55$",
+    "ticket_quantity": 370
+  },
+  {
+    "title": "Festival of Voices",
+    "description": "A choral extravaganza featuring world-class choirs performing both sacred and modern arrangements.",
+    "photo": "../assets/post/post(16).jpg",
+    "ticket_price": "25$",
+    "ticket_quantity": 180
+  },
+  {
+    "title": "Country Roads Live",
+    "description": "Feel the charm of country music with heartfelt performances on banjos, fiddles, and guitars.",
+    "photo": "../assets/post/post(17).jpg",
+    "ticket_price": "42$",
+    "ticket_quantity": 240
+  },
+  {
+    "title": "Alternative Rock Fest",
+    "description": "A bold and energetic lineup of alternative rock bands delivering a mix of raw power and deep lyrics.",
+    "photo": "../assets/post/post(18).jpg",
+    "ticket_price": "48$",
+    "ticket_quantity": 330
+  },
+  {
+    "title": "Electro Swing Party",
+    "description": "A unique fusion of 1920s jazz vibes with modern electronic beats for a dance-filled evening.",
+    "photo": "../assets/post/post(19).jpg",
+    "ticket_price": "36$",
+    "ticket_quantity": 290
+  },
+  {
+    "title": "Symphonic Rock Show",
+    "description": "An innovative blend of symphonic orchestra power with the energy of rock bands.",
+    "photo": "../assets/post/post(20).jpg",
+    "ticket_price": "65$",
+    "ticket_quantity": 400
+  },
+  {
+    "title": "World Music Gala",
+    "description": "An international journey of sounds and rhythms, showcasing diverse cultures on one stage.",
+    "photo": "../assets/post/post(21).jpg",
+    "ticket_price": "50$",
+    "ticket_quantity": 220
+  },
+  {
+    "title": "Tribute to The Beatles",
+    "description": "A nostalgic celebration of The Beatles’ greatest hits performed by a renowned tribute band.",
+    "photo": "../assets/post/post(22).jpg",
+    "ticket_price": "44$",
+    "ticket_quantity": 310
+  },
+  {
+    "title": "Sunset Chillout Session",
+    "description": "Laid-back electronic and lounge music with sunset views and a relaxing atmosphere.",
+    "photo": "../assets/post/post(23).jpg",
+    "ticket_price": "28$",
+    "ticket_quantity": 200
+  },
+  {
+    "title": "Christmas Carols Concert",
+    "description": "A festive evening of traditional and modern Christmas carols performed by choirs and bands.",
+    "photo": "../assets/post/post(24).jpg",
+    "ticket_price": "30$",
+    "ticket_quantity": 350
+  }
+]
